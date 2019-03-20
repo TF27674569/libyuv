@@ -13,6 +13,6 @@ include $(BUILD_SHARED_LIBRARY) #这里改为生成动态库默认是静态库
 6 执行ndk-build 等待编译完成 <br/>
 ## 注意
 编译会自动生成libs文件夹so在此文件夹内<br/>
-头文件在jni/include里面
+头文件在jni/include里面<br/>
 我这里的环境为mac，linux环境也是一样<br/>
 编译如图则是成功了![chenggong](https://github.com/TF27674569/libyuv/blob/master/image/yuv.jpg)
